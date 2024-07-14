@@ -1,0 +1,12 @@
+#paragraphName{
+    color: azure;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: none;
+    text-decoration-line: none;
+    text-decoration-style: inherit;
+}
+body{
+    background-image:url("https://images6.alphacoders.com/362/362226.jpg");
+    background-repeat: no-repeat;
+}
