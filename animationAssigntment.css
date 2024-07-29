@@ -1,0 +1,75 @@
+.card{
+    height: 10rem;
+    width: 10rem;
+    background-color: brown;
+    transition: transform 5s, height 2s, width 3s;
+    transform: rotate(90deg);
+}
+.card:hover{
+    height: 5rem;
+    width: 5rem;
+    transform: rotate(360deg);
+    margin-top: 1rem;
+}
+.card1{
+    height: 6rem;
+    width: 6rem;
+    animation-name: card1Animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+}
+@keyframes card1Animation{
+    from{margin-top: 15px; background-color: rgb(232, 21, 162);}
+    to{margin-left: 15px; background-color: rgb(33, 11, 176);}
+}
+.card2{
+    height: 6rem;
+    width: 6rem;
+    animation-name: card2Animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+}
+@keyframes card2Animation{
+    0%{margin-left: 0rem; background-color: darkblue;}
+    25%{margin-left: 2rem; background-color: gold;}
+    50%{margin-top: 2rem;margin-left: 2rem; background-color: lightsteelblue;}
+    75%{margin-top: 2rem;margin-left: 0rem; background-color: cadetblue;}
+    100%{margin-top: 5rem;margin-left: 0rem; background-color: chocolate;}
+}
+.card3{
+    height: 10rem;
+    width: 10rem;
+    transform: rotate(150deg);
+    animation-name: card3Animation;
+    animation-duration: 10s;
+    animation-iteration-count: 6;
+    margin-bottom: 2rem;
+}
+@keyframes card3Animation{
+    from{margin-top: 20px; background-color: maroon;}
+    to{margin-left: 20px; background-color: magenta;}
+    0%{margin-left: 0rem; background-color: olive;}
+    25%{margin-left: 2rem; background-color: yellowgreen;}
+    50%{margin-top: 3rem;margin-left: 3rem;background-color: violet;}
+    75%{margin-top: 3rem;margin-left: 0rem;background-color: tomato;}
+    100%{margin-top: 4rem;margin-left: 0rem;background-color: darkmagenta;}
+}
+.card4{
+    height: 12rem;
+    width: 12rem;
+    animation-name: card4Animation;
+    animation-duration: 15s;
+    animation-iteration-count: 15;
+    margin-top: 3rem;
+}
+@keyframes card4Animation{
+    from{margin-top: 20px; background-color: rgb(70, 2, 2);}
+    to{margin-left: 20px; background-color: rgb(232, 208, 232);}
+    0%{margin-left: 0rem; background-color: olive;}
+    25%{margin-left: 2rem; background-color: rgb(39, 57, 2);}
+    50%{margin-top: 3rem;margin-left: 3rem;background-color: rgb(57, 1, 57);}
+    75%{margin-top: 3rem;margin-left: 0rem;background-color: rgb(118, 23, 6);}
+    100%{margin-top: 4rem;margin-left: 0rem;background-color: rgb(59, 2, 59);}
+}
